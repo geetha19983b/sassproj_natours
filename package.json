@@ -1,0 +1,16 @@
+{
+  "name": "01-basic-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "scripts": {
+   "compile:sass":"node-sass sass/main.scss css/stylemod.css -w",
+   "compile:tsass":"node-sass introsass/style.scss introsass/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

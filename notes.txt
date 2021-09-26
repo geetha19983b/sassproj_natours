@@ -1,0 +1,4 @@
+npm i live-server  -g
+live-server
+
+npm run compile:sass -w
