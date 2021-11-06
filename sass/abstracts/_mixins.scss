@@ -1,8 +1,8 @@
 @mixin clearfix {
   &::after {
-    content: "";
-    display: table;
-    clear: both;
+      content: "";
+      display: table;
+      clear: both;
   }
 }
 @mixin absCenter {
@@ -43,3 +43,4 @@ ORDER: Base + typography > general layout + grid > page layout > components
       @media only screen and (min-width: 112.5em) { @content };    //1800
   }
 }
+

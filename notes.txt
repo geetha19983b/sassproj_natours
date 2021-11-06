@@ -2,3 +2,8 @@ npm i live-server  -g
 live-server
 
 npm run compile:sass -w
+
+min-width:600px means => applies to width >= 600px
+max-width:600px means => applies to width <=600px
+
+https://sizzy.co/
